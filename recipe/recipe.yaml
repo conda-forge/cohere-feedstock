@@ -2,7 +2,7 @@ schema_version: 1
 
 context:
   name: cohere
-  version: "6.0.0"
+  version: "6.1.0"
 
 package:
   name: ${{ name|lower }}
@@ -10,7 +10,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/${{ name[0] }}/${{ name }}/cohere-${{ version }}.tar.gz
-  sha256: d08319957bc6f61c3c07f129299773868c0c6796786c9bb940ac8dcfcebbb3d5
+  sha256: 6a52bb459b71b5e79735412ee1a8e87028c5b3afba050c39815fe03c083249b3
 
 build:
   number: 0
